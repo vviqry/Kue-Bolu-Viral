@@ -1,0 +1,7 @@
+{
+  "name": "Kue Bolu Viral 15000",
+  "description": "Website E-Commerce Lokal untuk Kue Bolu Pisang dan varian lainnya di Lima Puluh Kota, Sumatera Barat.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
