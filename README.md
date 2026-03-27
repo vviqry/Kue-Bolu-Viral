@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Kue Bolu Viral 15000
 
-# Run and deploy your AI Studio app
+Website E-Commerce untuk toko kue lokal "Kue Bolu Viral 15000" yang berlokasi di Guguak, Kabupaten Lima Puluh Kota, Sumatera Barat.
 
-This contains everything you need to run your app locally.
+## Fitur Utama
+- **Katalog Produk:** Menampilkan varian bolu pisang, original, pandan, dan keju.
+- **Integrasi WhatsApp:** Tombol pemesanan langsung ke WhatsApp.
+- **Lokasi Google Maps:** Peta interaktif yang mengarah langsung ke lokasi toko.
+- **Desain Responsif:** Optimal untuk tampilan HP maupun Desktop.
 
-View your app in AI Studio: https://ai.studio/apps/3d62049c-4082-45d3-9073-9fa6dabdeb85
+## Teknologi
+- React + Vite
+- Tailwind CSS
+- Framer Motion (untuk animasi)
+- Lucide React (untuk ikon)
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Cara Menjalankan Secara Lokal
+1. Clone repository ini.
+2. Jalankan `npm install`.
+3. Jalankan `npm run dev`.

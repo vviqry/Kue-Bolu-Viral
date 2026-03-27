@@ -616,7 +616,7 @@ export default function App() {
   return (
     <div className="min-h-screen selection:bg-accent selection:text-secondary">
       <Navbar />
-      <main>
+      <main className="pb-16">
         <Hero />
         <WhyUs />
         <ProductShowcase />
@@ -624,13 +624,20 @@ export default function App() {
         <HowToOrder />
         <Footer />
       </main>
+
+      {/* Dedicated Credit Bar Fixed at the bottom */}
+      <div className="fixed bottom-0 left-0 w-full bg-white/80 backdrop-blur-md py-3 text-center border-t border-gray-100 z-50">
+        <p className="text-text-soft text-[10px] tracking-[0.2em] uppercase font-bold">
+          Website by <a href="https://webpro-studio.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">WebPro Studio</a>
+        </p>
+      </div>
       
-      {/* Floating WA Button for Mobile */}
+      {/* Floating WA Button for Mobile - Moved up to avoid credit bar */}
       <a 
         href="https://wa.me/6285169175438" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 md:hidden bg-green-600 text-white p-4 rounded-full shadow-2xl z-40 animate-bounce"
+        className="fixed bottom-16 right-6 md:hidden bg-green-600 text-white p-4 rounded-full shadow-2xl z-40 animate-bounce"
       >
         <MessageCircle size={32} />
       </a>
